@@ -1,0 +1,8 @@
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: inherit;
+  z-index: 1000;
+}
