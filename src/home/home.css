@@ -18,25 +18,3 @@
   color: #A92F41;
   font-weight: 400;
 }
-
-.home-navigation {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: 25px;
-  text-align: center;
-  background-color: #252120;
-}
-
-.home-navigation > .nav-link {
-  margin: 0 50px;
-  color: #E5DFC5;
-  text-decoration: none;
-  font-weight: 200;
-  font-size: 1.2em;
-}
-
-.home-navigation > .is-active {
-  color: #A92F41;
-}

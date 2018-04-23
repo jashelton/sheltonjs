@@ -16,11 +16,6 @@ export class Home extends React.Component {
             <span><span className="typing-name">Justin Shelton</span> | Front End Engineer</span>
           </Typing>
         </div>
-        <div className="home-navigation">
-          { routerItems.map((ri, i) => (
-            <NavLink activeClassName='is-active' className="nav-link" key={i} to={ri.route}>{ri.viewValue}</NavLink>
-          ))}
-        </div>
       </div>
     );
   }

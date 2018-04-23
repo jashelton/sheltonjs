@@ -1,10 +1,10 @@
 import React from 'react';
 
-export class About extends React.Component {
+export class Works extends React.Component {
   render() {
     return(
       <div className="page-wrapper">
-        <h1>About</h1>
+        <h1>My Work</h1>
       </div>
     );
   }

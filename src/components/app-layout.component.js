@@ -1,6 +1,7 @@
 import React from 'react';
+import './app-layout.css';
 
-import { Navigation } from '../router';
+import { RouterOutlet } from '../router';
 import { NavComponent } from './';
 
 export class AppLayout extends React.Component {
@@ -13,7 +14,7 @@ export class AppLayout extends React.Component {
       <div>
         <NavComponent />
         <main>
-          <Navigation />
+          <RouterOutlet />
         </main>
       </div>
     );
