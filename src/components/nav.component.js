@@ -1,7 +1,7 @@
 import React from 'react';
 import './nav.css';
 
-import { Router, Route } from 'react-router';
+import { Router } from 'react-router';
 import { history } from '../helpers';
 import { routerItems } from '../router-items';
 import { NavLink } from 'react-router-dom';

@@ -21,12 +21,14 @@ export class About extends React.Component {
       <div className="page-wrapper">
         <h1>About</h1>
 
-        {aboutItems.map((item, index) => (
-          <div key={index}>
-            <div>{item.viewValue}</div>
-            <div>{item.desc}</div>
-          </div>
-        ))}
+        <div className="page-content">
+          {aboutItems.map((item, index) => (
+            <div key={index} className="item-card">
+              <div>{item.viewValue}</div>
+              <div>{item.desc}</div>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }

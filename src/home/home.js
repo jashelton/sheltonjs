@@ -2,9 +2,6 @@ import React from 'react';
 import './home.css';
 import { ParticlesComponent } from '../components';
 import Typing from 'react-typing-animation';
-import { routerItems } from '../router-items';
-import { NavLink } from 'react-router-dom';
-// import { Navigation } from '../router';
 
 export class Home extends React.Component {
   render() {

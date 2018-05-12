@@ -1,0 +1,44 @@
+.work-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.work-image-container img {
+  display: block;
+  width: 100%;
+}
+
+.work-image-container, .work-details-container {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: green;
+  float: left;
+}
+
+.work-details-container {
+  padding: 25px;
+}
+
+.tech-icons-container {
+  padding: 50px 0;
+}
+
+.tech-icons-container .icon-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tech-icons-container .icon-list .icon-list-item {
+  /* float: left;
+  padding-right: 25px; */
+}
+
+/* .tech-icons-container .icon {
+  float: left;
+} */
+
+i {
+  font-size: 3rem;
+}

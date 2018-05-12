@@ -26,5 +26,15 @@ const data = [
     viewValue: 'Disc Golf',
     value: 'disc_golf',
     desc: 'Description for disc golf'
+  },
+  {
+    viewValue: 'Disc Golf',
+    value: 'disc_golf',
+    desc: 'Description for disc golf'
+  },
+  {
+    viewValue: 'Disc Golf',
+    value: 'disc_golf',
+    desc: 'Description for disc golf'
   }
 ];

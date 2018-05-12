@@ -1,0 +1,14 @@
+.item-card-image-container img {
+  display: block;
+  width: 100%;
+}
+
+.item-card:hover .item-card-footer {
+  display: block;
+}
+
+.item-card-footer {
+  background-color: green;
+  padding: 25px;
+  display: none;
+}
