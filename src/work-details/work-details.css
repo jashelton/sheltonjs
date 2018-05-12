@@ -1,6 +1,6 @@
 .work-wrapper {
-  width: 100%;
-  box-sizing: border-box;
+  /* width: 100%;
+  box-sizing: border-box; */
 }
 
 .work-image-container img {
@@ -11,16 +11,28 @@
 .work-image-container, .work-details-container {
   width: 50%;
   box-sizing: border-box;
-  background-color: green;
   float: left;
 }
 
 .work-details-container {
-  padding: 25px;
+  padding-left: 25px;
+  font-weight: 200;
+}
+
+.work-details-container h2 {
+  font-weight: 200;
+}
+
+.work-details-container .description-content {
+  line-height: 1.4rem
+}
+
+.work-details-container .status-content {
+  margin-top: 50px;
 }
 
 .tech-icons-container {
-  padding: 50px 0;
+  padding-top: 75px;
 }
 
 .tech-icons-container .icon-list {

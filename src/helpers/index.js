@@ -1,2 +1,2 @@
 export * from './history';
-export * from './icon-mapping';
+export * from './mappings';
